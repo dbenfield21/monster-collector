@@ -9,7 +9,7 @@
   <link
     rel="shortcut icon"
     type="image/png"
-    {% comment %} href="{% static '/images/splash.png' %}" {% endcomment %}
+    href="{% static '/images/splash.png' %}"
   >
   <title>Monster Collector</title>
   <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
@@ -20,10 +20,11 @@
   <header>
     <div class="header-logo-container">
       <a href="/">
-        <img 
-          {% comment %} src="{% static '/images/splash.png' %}"  {% endcomment %}
+        {% comment %} <img 
+          src="{% static '/images/splash.png' %}" 
           alt="Monster"
-        > 
+        >  {% endcomment %}
+        <h1>MONSTER SMASH</h1>
       </a>
     </div>
     <nav>
